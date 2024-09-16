@@ -5,4 +5,3 @@ def optellen(a:int,b:int)->int:
 
 if __name__ == '__main__':
     print(optellen(1,2))
-    
