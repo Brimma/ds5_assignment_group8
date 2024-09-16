@@ -19,7 +19,9 @@ print(f"Average Grade: {average}")
 print("--------------------")
 print("Student Report")
 print("--------------")
-for record in filtered_records:
-    print(f"Name: {record['Name']}")
-    print(f"Grade: {record['Grade']}")
-    print("--------------------")
+
+# Prints the name and grade of every student that got a grade higher than 80
+    for record in filtered_records:
+        print(f"Name: {record['Name']}")
+        print(f"Grade: {record['Grade']}")
+        print("--------------------")
